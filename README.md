@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+
+# fhir-front-end
+This is a front end React.js application.  Once deployed it takes in a token and retrieves fhir data on the patient associcated with the token.  It assumes the token you are sending is valid and associated with the hard coded patient.
+
+## Configuration
+The only configuration is in the /src/config.js. BASE_URL should be set to the base url for your backend. 
+
+```
+{
+    "BASE_URL": "http://localhost:8080/" 
+}
+```
+
+## Deploying
+See the standard deployment below.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
